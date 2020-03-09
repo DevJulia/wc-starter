@@ -11,7 +11,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin'); 
 
 module.exports = {
-  entry: ['./assets/js/index.js', './assets/sass/main.scss'],
+  entry: {
+    main: ['./assets/js/index.js', './assets/sass/main.scss'],
+    home: ['./assets/js/pages/home.js'],
+  },
   output: {
     filename: './assets/build/[name].js',
     path: path.resolve(__dirname),

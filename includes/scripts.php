@@ -20,6 +20,6 @@ function theme_load_scripts() {
 
         wp_localize_script('theme_script', 'mantion', [
             'ajaxurl' => admin_url('admin-ajax.php')
-        ]);
+        ]);        
     }
 }

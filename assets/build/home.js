@@ -81,69 +81,35 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/js/helpers/common.js":
-/*!*************************************!*\
-  !*** ./assets/js/helpers/common.js ***!
-  \*************************************/
-/*! exports provided: common */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "common", function() { return common; });
-function common() {
-  console.log($('body'));
-}
-
-
-
-/***/ }),
-
-/***/ "./assets/js/index.js":
-/*!****************************!*\
-  !*** ./assets/js/index.js ***!
-  \****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _helpers_common_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers/common.js */ "./assets/js/helpers/common.js");
+/***/ "./assets/js/pages/home.js":
+/*!*********************************!*\
+  !*** ./assets/js/pages/home.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
 $(document).ready(function () {
-  Object(_helpers_common_js__WEBPACK_IMPORTED_MODULE_0__["common"])();
+  console.log("homepage route");
 });
 
 /***/ }),
 
-/***/ "./assets/sass/main.scss":
-/*!*******************************!*\
-  !*** ./assets/sass/main.scss ***!
-  \*******************************/
+/***/ 1:
+/*!***************************************!*\
+  !*** multi ./assets/js/pages/home.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ 0:
-/*!**********************************************************!*\
-  !*** multi ./assets/js/index.js ./assets/sass/main.scss ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ./assets/js/index.js */"./assets/js/index.js");
-module.exports = __webpack_require__(/*! ./assets/sass/main.scss */"./assets/sass/main.scss");
+module.exports = __webpack_require__(/*! ./assets/js/pages/home.js */"./assets/js/pages/home.js");
 
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=home.js.map
