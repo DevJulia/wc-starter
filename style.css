@@ -1,0 +1,15 @@
+/*
+Theme Name: Mantion
+Description: Theme enfant de StoreFront
+Author: Christopher Bulhé - Netemedia
+Author URI: https://www.netemedia.fr
+Template: storefront
+Version: 1.0.0
+*/
+ 
+
+body #primary {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+}

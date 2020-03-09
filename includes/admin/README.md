@@ -1,0 +1,1 @@
+Fichiers PHP (hooks, fonctions) relatifs à l'administration
